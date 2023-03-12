@@ -66,3 +66,4 @@ def byte(num):
         A single byte.
     """
     return pack("B", num)
+

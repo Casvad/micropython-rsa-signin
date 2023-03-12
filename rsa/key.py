@@ -85,9 +85,9 @@ class PrivateKey(AbstractKey):
         self.q = q
 
         # Calculate exponents and coefficient.
-        self.exp1 = int(d % (p - 1))
-        self.exp2 = int(d % (q - 1))
-        self.coef = rsa.common.inverse(q, p)
+        #self.exp1 = int(d % (p - 1))
+        #self.exp2 = int(d % (q - 1))
+        #self.coef = rsa.common.inverse(q, p)
 
     def __getitem__(self, key):
         return getattr(self, key)
@@ -156,3 +156,4 @@ class PrivateKey(AbstractKey):
 
 
 __all__ = ['PrivateKey']
+

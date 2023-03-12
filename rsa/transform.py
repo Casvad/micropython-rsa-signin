@@ -148,3 +148,4 @@ def int2bytes(number, fill_size=None, chunk_size=None, overflow=False):
             padding_size = chunk_size - remainder
             raw_bytes = rjust(raw_bytes, length + padding_size, b'\x00')
     return raw_bytes
+

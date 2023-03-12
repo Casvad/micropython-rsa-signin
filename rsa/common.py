@@ -180,3 +180,4 @@ def modular_pow(base, exponent, modulus):
         exponent = exponent >> 1
         base = (base * base) % modulus
     return result
+

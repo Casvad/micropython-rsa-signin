@@ -194,3 +194,4 @@ def compute_hash(message, method_name):
 
 __all__ = ['sign',
            'DecryptionError', 'VerificationError', 'CryptoError']
+
